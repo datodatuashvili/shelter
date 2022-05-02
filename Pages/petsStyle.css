@@ -537,8 +537,8 @@ body, html {
     position: absolute;
     width: 270px;
     height: 435px;
-    left: calc(50% - 270px/2 - 930px);
-    top: 465px;
+    left: calc(50% - 270px/2 - 500px);
+    top: 480px;
     
     /* color-light-s */
     
@@ -642,8 +642,8 @@ body, html {
     position: absolute;
     width: 270px;
     height: 435px;
-    left: calc(50% - 270px/2 - 620px);
-    top: 465px;
+    left: calc(50% - 270px/2 - 190px);
+    top: 480px;
     
     /* color-light-s */
     
@@ -745,8 +745,8 @@ body, html {
     position: absolute;
     width: 270px;
     height: 435px;
-    left: calc(50% - 270px/2 - 310px);
-    top: 465px;
+    left: calc(50% - 270px/2 + 120px);
+    top: 480px;
     
     /* color-light-s */
     
@@ -849,8 +849,8 @@ body, html {
     position: absolute;
     width: 270px;
     height: 435px;
-    left: calc(50% - 270px/2);
-    top: 465px;
+    left: calc(50% - 270px/2 + 430px);
+    top: 480px;
     
     /* color-light-s */
     
@@ -954,7 +954,7 @@ body, html {
     width: 450px;
     height: 52px;
     left: 347px;
-    top: 959px;
+    top: 1094px;
     /* background-color: yellow; */
 }
 
