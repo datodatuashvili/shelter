@@ -231,6 +231,9 @@ header{
     border-radius: 100px;
     /* margin: 10px 0px; */
 }
+.button_primary:hover{
+    background-color: #dbb7b7;
+}
 
 .btn_txt{
     font-family: 'Georgia';
@@ -397,9 +400,10 @@ header{
     border-radius: 9px;
     cursor: pointer;
 }
-.card-katrin:hover .btn-learn-moreK{
-    background-color: #F1CDB3;
+.card-katrin:hover{
+    background-color: #ddbbbb85;
 }
+
 .imgK{
     position: absolute;
     left: 0%;
@@ -436,6 +440,9 @@ header{
     height: 52px;
     left: 41.5px;
     top: 353px;
+}
+.btn-learn-moreK:hover{
+    background-color: #F1CDB3;
 }
 .btn-learn-moreK{
     display: flex;
@@ -478,8 +485,8 @@ header{
     border-radius: 9px;
     cursor: pointer;
 }
-.card-jennifer:hover .btn-learn-moreJ{
-    background-color: #F1CDB3;
+.card-jennifer:hover{
+    background-color: #ddbbbb85;
 }
 .imgJ{
     position: absolute;
@@ -519,7 +526,9 @@ header{
     left: 41.5px;
     top: 353px;
 }
-
+.btn-learn-moreJ:hover{
+    background-color: #F1CDB3;
+}
 .btn-learn-moreJ{
     display: flex;
     flex-direction: column;
@@ -603,7 +612,10 @@ header{
     left: 41.5px;
     top: 353px;
 }
-.card-woody:hover .btn-learn-moreW{
+.card-woody:hover{
+    background-color: #ddbbbb85;
+}
+.btn-learn-moreW:hover{
     background-color: #F1CDB3;
 }
 .btn-learn-moreW{
@@ -673,7 +685,10 @@ header{
     border-radius: 100px;
     cursor: pointer;
 }
-
+.pets-primary-btn:hover{
+        background-color: #dbb7b7;
+   
+}
 .pets-get-to-know{
     font-family: 'Georgia';
     font-style: normal;
@@ -1107,7 +1122,10 @@ header{
     order: 0;
     flex-grow: 0;
 }
+.credit-card:hover{
+    background-color: #dbb7b7;
 
+}
 .img-credit-card{
     position: absolute;
     width: 30px;
