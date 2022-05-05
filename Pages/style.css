@@ -6,7 +6,7 @@ body, html {
 .main_1280 {
     width: 1280px;
     height: 3796px;
-  }
+}
 
 header{
     position: absolute;
@@ -403,7 +403,9 @@ header{
 .card-katrin:hover{
     background-color: #ddbbbb85;
 }
-
+.card-katrin:hover .btn-learn-moreK{
+    background-color: #F1CDB3;
+}
 .imgK{
     position: absolute;
     left: 0%;
@@ -487,6 +489,9 @@ header{
 }
 .card-jennifer:hover{
     background-color: #ddbbbb85;
+}
+.card-jennifer:hover .btn-learn-moreJ{
+    background-color: #F1CDB3;
 }
 .imgJ{
     position: absolute;
@@ -614,6 +619,9 @@ header{
 }
 .card-woody:hover{
     background-color: #ddbbbb85;
+}
+.card-woody:hover .btn-learn-moreW{
+    background-color: #F1CDB3;
 }
 .btn-learn-moreW:hover{
     background-color: #F1CDB3;
