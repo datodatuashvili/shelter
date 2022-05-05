@@ -135,7 +135,8 @@ header{
 
 
 .start_screen_content{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 1200px;
     height: 728px;
     left: 40px;
@@ -143,19 +144,20 @@ header{
 }
 
 .content{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 460px;
     height: 322px;
-    left: 0px;
-    top: 163px;
+    left: 405px;
+    top: 400px;
 }
 
 .heading{
     position: absolute;
     width: 310px;
     height: 114px;
-    left: calc(50% - 310px/2 - 75px);
-    bottom: 170px;
+    left: calc(50% - 1120px/2 - 75px);
+    bottom: 413px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -169,8 +171,8 @@ header{
     position: absolute;
     width: 460px;
     height: 72px;
-    left: calc(50% - 460px/2);
-    bottom: 79px;
+    left: calc(50% - 1270px/2);
+    bottom: 322px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -185,7 +187,7 @@ header{
     position: absolute;
     width: 698px;
     height: 728px;
-    left: calc(50% - 698px/2 + 251px);
+    left: calc(50% - 770px/2 + 251px);
     bottom: 0px;
 
     background: url("../assets/images/start-screen-puppy.png");
@@ -225,8 +227,8 @@ header{
     position: absolute;
     width: 215px;
     height: 52px;
-    left: calc(50% - 207px/2 - 130.5px);
-    bottom: 0px;
+    left: calc(50% - 1016px/2 - 130.5px);
+    bottom: 243px;
     background: #F1CDB3;
     border-radius: 100px;
     /* margin: 10px 0px; */
@@ -406,6 +408,7 @@ header{
 .card-katrin:hover .btn-learn-moreK{
     background-color: #F1CDB3;
 }
+
 .imgK{
     position: absolute;
     left: 0%;
@@ -493,6 +496,7 @@ header{
 .card-jennifer:hover .btn-learn-moreJ{
     background-color: #F1CDB3;
 }
+
 .imgJ{
     position: absolute;
     left: 0%;
@@ -620,12 +624,13 @@ header{
 .card-woody:hover{
     background-color: #ddbbbb85;
 }
-.card-woody:hover .btn-learn-moreW{
-    background-color: #F1CDB3;
-}
 .btn-learn-moreW:hover{
     background-color: #F1CDB3;
 }
+.card-woody:hover .btn-learn-moreW{
+    background-color: #F1CDB3;
+}
+
 .btn-learn-moreW{
     display: flex;
     flex-direction: column;
@@ -1185,7 +1190,8 @@ footer{
 }
 
 .footer-content{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 1200px;
     height: 310px;
     left: 40px;
@@ -1193,7 +1199,8 @@ footer{
 }
 
 .footer-contacts{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 278px;
     height: 234px;
     left: 0px;
@@ -1204,8 +1211,8 @@ footer{
     position: absolute;
     width: 280px;
     height: 90px;
-    left: calc(50% - 278px/2 - 0px);
-    top: -35px;
+    left: calc(50% - 1270px/2 - 0px);
+    top: 22px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1216,7 +1223,8 @@ footer{
 }
 
 .mail{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 251px;
     height: 32px;
     left: 0px;
@@ -1227,16 +1235,16 @@ footer{
     position: absolute;
     width: 40px;
     height: 32px;
-    /* left: calc(50% - 40px/2 - 119px); */
-    /* top: 130px; */
+    left: calc(50% - 1034px/2 - 119px); 
+    top: 186px; 
 }
 
 .maila{
     position: absolute;
     width: 191px;
     height: 23px;
-    left: calc(50% - 191px/2 + 30.5px);
-    top: 5px;
+    left: calc(50% - 912px/2 - 119px); 
+    top: 191px; 
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1248,7 +1256,8 @@ footer{
 }
 
 .phone{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 239px;
     height: 32px;
     left: 0px;
@@ -1259,15 +1268,15 @@ footer{
     position: absolute;
     width: 40px;
     height: 32px;
-    /* left: calc(50% - 40px/2 - 119px);
-    top: 202px; */
+    left: calc(50% - 1034px/2 - 119px); 
+    top: 258px; 
 }
 .phone1{
     position: absolute;
     width: 189px;
     height: 23px;
-    left: calc(50% - 179px/2 + 29.5px);
-    top: 5px;
+    left: calc(50% - 912px/2 - 119px); 
+    top: 263px; 
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1282,8 +1291,8 @@ footer{
     position: absolute;
     width: 270px;
     height: 90px;
-    left: calc(50% - 270px/2 - 77px);
-    top: -34px;
+    left: calc(50% - 238px/2 - 77px);
+    top: 22px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1294,7 +1303,8 @@ footer{
 }
 
 .footer-locations{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 302px;
     height: 234px;
     left: 500px;
@@ -1302,7 +1312,8 @@ footer{
 }
 
 .boston{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 302px;
     height: 46px;
     left: 0px;
@@ -1310,7 +1321,8 @@ footer{
 }
 
 .london{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 302px;
     height: 32px;
     left: 0px;
@@ -1321,8 +1333,8 @@ footer{
     position: absolute;
     width: 260px;
     height: 46px;
-    left: calc(50% - 260px/2 - 41px);
-    top: -27px;
+    left: calc(50% - 226px/2 - 41px);
+    top: 153px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1336,8 +1348,8 @@ footer{
     position: absolute;
     width: 260px;
     height: 23px;
-    left: calc(50% - 260px/2 - 41px);
-    top: -22px;
+    left: calc(50% - 226px/2 - 41px);
+    top: 236px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1352,16 +1364,16 @@ footer{
     position: absolute;
     width: 22px;
     height: 32px;
-    left: -62px;
-    top: 6px;
+    left: calc(50% - 364px/2 - 15px);
+    top: 186px;
 }
 
 .img_pin1{
     position: absolute;
     width: 22px;
     height: 32px;
-    left: -62px;
-    top: 0px;
+    left: calc(50% - 364px/2 - 15px);
+    top: 258px;
 }
 
 .locationsH3{
@@ -1383,8 +1395,8 @@ footer{
     position: absolute;
     width: 300px;
     height: 310px;
-    left: calc(50% - 300px/2 + 450px);
-    top: 0px;
+    left: calc(50% - 370px/2 + 450px);
+    top: 39px;
     background: url(footer-puppy.png);
 }
 
