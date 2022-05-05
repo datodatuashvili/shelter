@@ -1033,11 +1033,11 @@ footer{
     left: 0%;
     right: 0%;
     top: 1462px;
-    
 }
 
 .footer-content{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 1200px;
     height: 310px;
     left: 40px;
@@ -1045,7 +1045,8 @@ footer{
 }
 
 .footer-contacts{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 278px;
     height: 234px;
     left: 0px;
@@ -1056,8 +1057,8 @@ footer{
     position: absolute;
     width: 280px;
     height: 90px;
-    left: calc(50% - 278px/2 - 0px);
-    top: -34px;
+    left: calc(50% - 1270px/2 - 0px);
+    top: 22px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1068,7 +1069,8 @@ footer{
 }
 
 .mail{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 251px;
     height: 32px;
     left: 0px;
@@ -1079,16 +1081,16 @@ footer{
     position: absolute;
     width: 40px;
     height: 32px;
-    /* left: calc(50% - 40px/2 - 119px); */
-    /* top: 130px; */
+    left: calc(50% - 1034px/2 - 119px); 
+    top: 186px; 
 }
 
 .mailH4{
     position: absolute;
     width: 191px;
     height: 23px;
-    left: calc(50% - 191px/2 + 30.5px);
-    top: 5px;
+    left: calc(50% - 912px/2 - 119px); 
+    top: 191px; 
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1100,7 +1102,8 @@ footer{
 }
 
 .phone{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 239px;
     height: 32px;
     left: 0px;
@@ -1111,15 +1114,15 @@ footer{
     position: absolute;
     width: 40px;
     height: 32px;
-    /* left: calc(50% - 40px/2 - 119px);
-    top: 202px; */
+    left: calc(50% - 1034px/2 - 119px); 
+    top: 258px; 
 }
 .phoneH4{
     position: absolute;
     width: 189px;
     height: 23px;
-    left: calc(50% - 179px/2 + 30.5px);
-    top: 5px;
+    left: calc(50% - 912px/2 - 119px); 
+    top: 263px; 
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1134,8 +1137,8 @@ footer{
     position: absolute;
     width: 270px;
     height: 90px;
-    left: calc(50% - 270px/2 - 77px);
-    top: -34px;
+    left: calc(50% - 238px/2 - 77px);
+    top: 22px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1146,7 +1149,8 @@ footer{
 }
 
 .footer-locations{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 302px;
     height: 234px;
     left: 500px;
@@ -1154,27 +1158,29 @@ footer{
 }
 
 .boston{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 302px;
     height: 46px;
-    left: -62px;
-    top: 130px;
+    left: 0px;
+    top: 124px;
 }
 
 .london{
-    position: absolute;
+    max-width: 1280;
+    margin: 0 auto;
     width: 302px;
     height: 32px;
-    left: -62px;
-    top: 201px;
+    left: 0px;
+    top: 202px;
 }
 
 .bostonH4{
     position: absolute;
     width: 260px;
     height: 46px;
-    left: calc(50% - 260px/2 + 21px);
-    top: -34px;
+    left: calc(50% - 226px/2 - 41px);
+    top: 153px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1188,8 +1194,8 @@ footer{
     position: absolute;
     width: 260px;
     height: 23px;
-    left: calc(50% - 260px/2 + 21px);
-    top: -21px;
+    left: calc(50% - 226px/2 - 41px);
+    top: 236px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1204,17 +1210,17 @@ footer{
     position: absolute;
     width: 22px;
     height: 32px;
-    left: 0px;
-    top: 0px;
+    left: calc(50% - 364px/2 - 15px);
+    top: 186px;
 }
+
 .img_pin1{
     position: absolute;
     width: 22px;
     height: 32px;
-    left: 0px;
-    top: 0px;
+    left: calc(50% - 364px/2 - 15px);
+    top: 258px;
 }
-
 
 .locationsH3{
     position: absolute;
@@ -1235,8 +1241,8 @@ footer{
     position: absolute;
     width: 300px;
     height: 310px;
-    left: calc(50% - 300px/2 + 450px);
-    top: 0px;
+    left: calc(50% - 370px/2 + 450px);
+    top: 39px;
     background: url(footer-puppy.png);
 }
 
@@ -1257,7 +1263,6 @@ footer{
     top: 0px;
     background: url(footer-background.png);
 }
-
 
 
 
