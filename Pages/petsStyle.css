@@ -1026,6 +1026,34 @@ nav > ul > li{
 .btn-doubleright:hover{
     background-color: #F1CDB3;
 }
+.btn-centr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 25px;
+    position: absolute;
+    width: 52px;
+    height: 0px;
+    left: 192px;
+    top: 16px;
+    /* border: 2px solid #F1CDB3; */
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: url("../assets/images/button_paginatorCentre.png");
+    cursor: pointer;
+}
+
+.btn-centr:hover{
+    background-color: #F1CDB3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 27px;
+    width: 52px;
+    height: 0px;
+    left: 190px;
+    top: 13px;
+}
 
 footer{
     position: absolute;
