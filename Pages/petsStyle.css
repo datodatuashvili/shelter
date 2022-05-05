@@ -191,6 +191,9 @@ body, html {
 .card-katrin:hover .btn-learn-moreK{
     background-color: #F1CDB3;
 }
+.card-katrin:hover{
+    background-color: #ddbbbb85;
+}
 .imgK{
     position: absolute;
     left: 0%;
@@ -273,6 +276,9 @@ body, html {
     background: #FAFAFA;
     border-radius: 9px;
     cursor: pointer;
+}
+.card-jennifer:hover{
+    background-color: #ddbbbb85;
 }
 .card-jennifer:hover .btn-learn-moreJ{
     background-color: #F1CDB3;
@@ -361,6 +367,9 @@ body, html {
     background: #FAFAFA;
     border-radius: 9px;
     cursor: pointer;
+}
+.card-woody:hover{
+    background-color: #ddbbbb85;
 }
 .card-woody:hover .btn-learn-moreW{
     background-color: #F1CDB3;
@@ -451,6 +460,9 @@ body, html {
 }
 .card-sophia:hover .btn-learn-moreSPH{
     background-color: #F1CDB3;
+}
+.card-sophia:hover{
+    background-color: #ddbbbb85;
 }
 .imgSPH{
     position: absolute;
@@ -545,6 +557,9 @@ body, html {
     background: #FAFAFA;
     border-radius: 9px;
     cursor: pointer;
+}
+.card-timmy:hover{
+    background-color: #ddbbbb85;
 }
 .card-timmy:hover .btn-learn-moreTim{
     background-color: #F1CDB3;
@@ -651,6 +666,9 @@ body, html {
     border-radius: 9px;
     cursor: pointer;
 }
+.card-charlie:hover{
+    background-color: #ddbbbb85;
+}
 .card-charlie:hover .btn-learn-moreTim{
     background-color: #F1CDB3;
 }
@@ -753,6 +771,9 @@ body, html {
     background: #FAFAFA;
     border-radius: 9px;
     cursor: pointer;
+}
+.card-scarlett:hover{
+    background-color: #ddbbbb85;
 }
 .card-scarlett:hover .btn-learn-moreTim{
     background-color: #F1CDB3;
@@ -860,6 +881,9 @@ body, html {
 }
 .card-freddie:hover .btn-learn-moreTim{
     background-color: #F1CDB3;
+}
+.card-freddie:hover{
+    background-color: #ddbbbb85;
 }
 .imgT
 .imgTim{
