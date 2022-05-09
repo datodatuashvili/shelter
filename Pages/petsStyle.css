@@ -1040,10 +1040,10 @@ nav > ul > li{
     box-sizing: border-box;
     border-radius: 100px;
     background: url("../assets/images/button_paginatorCentre.png");
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.btn-centr:hover{
+/* .btn-centr:hover{
     background-color: #F1CDB3;
     display: flex;
     flex-direction: column;
@@ -1053,7 +1053,7 @@ nav > ul > li{
     height: 0px;
     left: 190px;
     top: 13px;
-}
+} */
 
 footer{
     position: absolute;
